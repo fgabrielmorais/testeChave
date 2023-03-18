@@ -1,4 +1,4 @@
-package com.example.teste_chave
+package com.devmenthors.teste_chave
 
 import io.flutter.embedding.android.FlutterActivity
 
