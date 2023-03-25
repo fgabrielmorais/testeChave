@@ -12,7 +12,11 @@ class AppOneSignalController {
           .promptUserForPushNotificationPermission(fallbackToSettings: false)
           .then((accepted) async {
         print('Cliente aceitou a permissão:  ${accepted}');
-
+        OneSignal.shared.sendTags(
+          {
+            "id" : '1',
+            "email" : 's',
+          });
 
       });
     }
